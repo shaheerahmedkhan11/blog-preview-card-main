@@ -1,29 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="index.css">
-  <title>Frontend Mentor | Blog preview card</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Frontend Mentor | Blog preview card</title>
+  </head>
+  <body>
+    <header>
+      <h1>Frontend Mentor Blog Preview Card</h1>
+    </header>
 
-</head>
-<body>
+    <main>
+      <img
+        id="blog-pic"
+        src="images\img.svg"
+        alt="Blog Image"
+        width="200"
+        height="300"
+      />
 
-  Learning
+      <div class="tag">Learning</div>
 
-  Published 21 Dec 2023
+      <div class="tag description">Published 21 Dec 2023</div>
 
-  HTML & CSS foundations
+      <h3 class="blog-details heading">HTML & CSS foundations</h3>
 
-  These languages are the backbone of every website, defining structure, content, and presentation.
+      <div class="blog-details description">
+        These languages are the backbone of every website, defining structure,
+        content, and presentation.
+      </div>
 
-  Greg Hooper
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+      <section>
+        <img
+          class="avatar"
+          src="images\avatar.webp"
+          alt="Avatar photo: Greg Hooper"
+          width="32"
+          height="32"
+        />
+        <div class="avatar name">Greg Hooper</div>
+      </section>
+    </main>
+  </body>
 </html>
